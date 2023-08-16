@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.boton {
+  cursor: pointer;
+  border: none;
+
+  background-color: #fff;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.boton:hover {
+  background-color: #f2f2f2;
+}
+
+.boton1 {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-color: grey;
+  border-width: 1px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.boton2 {
+  padding: 10px 20px;
+  border-color: grey;
+  border-width: 1px;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+.boton3 {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-color: grey;
+  border-width: 1px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #fff;
+
+  border-radius: 5px;
+}
+
+.imgCards {
+  width: 200px;
+  height: 200px;
+}
+
+.modalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 50%;
+
+  z-index: 1000;
+}
+
+.modalContainer > p {
+  font-size: 70px;
+}
+
+.modalContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.modalM {
+  display: flex;
+  margin-top: 10px;
+}
+
+.m1 {
+  width: 400px;
+  height: 50px;
+  border-color: grey;
+  border-width: 0.5px;
+  border-top: 3px;
+
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+}
+
+.m2 {
+  width: 400px;
+  height: 50px;
+  border-color: grey;
+  border-width: 0.5px;
+  border-top: 3px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+}
+
+.m3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 400px;
+  height: 50px;
+  border-color: grey;
+  border-width: 0.5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  margin-top: 5px;
+}
+
+.dM {
+  width: 400px;
+  height: 250px;
+}
+
+.pM1 {
+  border-top: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.pM2 {
+  border-top: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.pGuests {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.pLocation {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 40px;
+  background-color: #ff3d3d;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+.imgCards {
+  width: 350px;
+  height: 255px;
+  border-radius: 15px;
+}
+
+.yaQuieroTerminarEstoPorfavorAuxilio {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+}
+
+.pCity {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contadores {
+  display: flex;
+}
+
+.contadores > p {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.pCards {
+  color: #828282;
+}
+
+.bolt {
+  font-weight: bold;
+}
+
+.grisesito {
+  color: #828282;
+}
+
+.sube {
+  margin-top: 10px;
+}
+
+.subeloSolo20 {
+  margin-top: 20px;
+}
